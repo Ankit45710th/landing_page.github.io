@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:2px;
+}
+ nav{
+     display: flex;
+     justify-content:space-between;
+     padding:8px;
+}
+.child3{
+
+    background-color: rgb(240, 191, 182);
+    border:1px solid rgb(240, 191, 182);
+    padding: 12px;
+    color:blue;
+    border-radius:20px;
+
+}
+.child2 {
+    display: flex;
+    justify-content:space-between;
+    color:rgb(167, 167, 167);
+}
+.child2 div{
+    padding: 12px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding:30px;
+}
+.content h1{
+    font-size:55px;
+}
+.content button{
+    background-color:rgb(58, 58, 247);
+    border-radius:20px;
+    padding: 15px;
+    width:130px;
+    color:#fff;
+}
+.content .btn{
+    display: flex;
+    justify-content:left;
+    padding:0px;
+}
+.content .list{
+    margin-top:10%;
+
+}
+.content .list div{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;    
+}
+
+.content .list .dot1{
+    background-color: pink;
+    height:12px;
+    border-radius: 20px;
+}
+
+
+.content .list .dot2{
+    background-color: rgb(211, 61, 86);
+    height:12px;
+    border-radius: 20px;
+}
+
+
+.content .list .dot3{
+    background-color:rgb(115, 236, 115);
+    height:12px;
+    border-radius: 20px;
+}
+
+
+.content .list .dot4{
+    background-color:rgb(204, 204, 4)
+    height:12px;
+    border-radius: 20px;
+}
+
+
+.content .list .dot4{
+    background-color: pink;
+    height:12px;
+    border-radius: 20px;
+}
+
+.content .list .list2{
+    box-shadow: 5px 15px rgb(233, 223, 223);
+}
+
+.content span{
+    margin-top: 10px;
+}
